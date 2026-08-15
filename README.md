@@ -67,7 +67,7 @@ The integrity checks passed for:
 - **Safety:** 3,344 records
 - **READM:** 4,264 records
 
-The cleaned dataset retained all **5,419 hospital records** and contained no duplicate facility IDs.
+The cleaned dataset retained all 5,419 hospital records and contained no duplicate facility IDs.
 
 The processed dataset is saved to: `data/processed/hospital_quality_clean.csv`
 
@@ -108,9 +108,9 @@ This resulted in six engineered variables:
 
 These features give the modeling stage a more interpretable representation of hospital quality performance.
 
-At this point, I shifted from descriptive analysis to prediction. I defined a binary target representing whether a hospital had a **high overall rating**. 
+At this point, I shifted from descriptive analysis to prediction. I defined a binary target representing whether a hospital had a high overall rating. 
 
-The modeling dataset contained **3,174 hospitals** with the information required for the analysis:
+The modeling dataset contained 3,174 hospitals with the information required for the analysis:
 
 - 1,844 lower-rated hospitals
 - 1,330 high-rated hospitals
@@ -119,8 +119,8 @@ I used a stratified train/test split so that the proportion of high-rated and lo
 
 The final split contained:
 
-- **2,539 training records**
-- **635 testing records**
+- 2,539 training records
+- 635 testing records
 
 Before adding quality measures, I wanted to answer a simpler question:
 
@@ -133,30 +133,30 @@ I built a logistic regression model using:
 - Emergency services
 - State
 
-This became the baseline model. Its ROC-AUC was **0.624**, suggesting that hospital characteristics alone provided some predictive information, but there was considerable room for improvement.
+This became the baseline model. Its ROC-AUC was 0.624, suggesting that hospital characteristics alone provided some predictive information, but there was considerable room for improvement.
 
 The next question was whether the engineered quality measures actually added predictive value. I expanded the logistic regression model to include the mortality, safety, and readmission performance features. The result was a substantial improvement.
 
-ROC-AUC increased from: **0.624 → 0.816**
+ROC-AUC increased from: 0.624 → 0.816
 
 This suggested that quality performance contained considerably more information about hospital ratings than hospital characteristics alone.
 
 The model also achieved:
 
-- Accuracy: **0.729**
-- Precision: **0.684**
-- Recall: **0.658**
-- F1: **0.670**
+- Accuracy: 0.729
+- Precision: 0.684
+- Recall: 0.658
+- F1: 0.670
 
 I didn't want to assume that logistic regression was the best approach, so I built a Random Forest model using the same modeling dataset.
 
 The Random Forest achieved:
 
-- Accuracy: **0.721**
-- Precision: **0.654**
-- Recall: **0.711**
-- F1: **0.681**
-- ROC-AUC: **0.792**
+- Accuracy: 0.721
+- Precision: 0.654
+- Recall: 0.711
+- F1: 0.681
+- ROC-AUC: 0.792
 
 The comparison revealed an interesting tradeoff. The logistic regression model achieved the highest ROC-AUC, while the Random Forest achieved higher recall and F1. Rather than declaring one model universally "best," I treated the result as dependent on what the model would ultimately be used for.
 
@@ -172,19 +172,30 @@ There was insufficient evidence of an association between emergency services and
 
 ### Key Findings
 - Quality measures substantially improved predictive performance compared with hospital characteristics alone.
-- Logistic regression with quality measures achieved the highest ROC-AUC: **0.816**.
-- Random Forest achieved the highest recall: **0.711**.
-- Random Forest also achieved the highest F1 score: **0.681**.
+- Logistic regression with quality measures achieved the highest ROC-AUC: 0.816
+- Random Forest achieved the highest recall: 0.711
+- Random Forest also achieved the highest F1 score: 0.681
 - Hospital type, ownership, and state showed statistically significant associations with high ratings.
 - Emergency service availability did not show sufficient evidence of association at the 0.05 significance level.
 - Legitimate unusual observations were retained rather than automatically removed as outliers.
 
 
 ## 📚 What I Learned
-During this project, I've picked up important skills and a better understanding of . . .
+During this project, a few things that stood out to me: 
 
+- Data cleaning is part of the analysis. I learned that understanding the data comes before modeling it. Working with the CMS dataset included investigating missing values, looking into inconsistent formats, and validating calculated measures.
+- Not all missing data should be fixed. A large portion of the dataset contained unavailable ratings and quality measures. Instead of filling or removing them, I learned to consider why the data was missing and how that could affect the analysis.
+- Data exploration can raise better questions than answers. Looking at hospital ratings across hospital type, ownership, emergency services, and state helped identify patterns worth investigating further rather than jumping straight into modeling.
+- Statistical significance needs context to make sense. The chi-square tests showed statistically significant association between some hospital characteristics and high ratings, the Cramer's V showed that statistical significance doesn't always mean the relationship is strong.
+- Different models gives different things. Logistic regression gave me an interpretable way to understand how features were associated with high ratings. The random forest provided a different approach to prediction. Comparing the models helped me think beyond simply choosing whichever model had the highest accuracy.
+- Each model has tradeoffs. The logistic regression model had the strongest ROC-AUC (0.816), while the random forest model achieved slightly higher recall (0.711) and F1 (0.681). There wasn't one model that was best at everything!
 
-### 📈 Overall Growth:
 
 ## 💭 Future Steps
+There's plenty Of things I would like to explore with this project. Such steps include:
 
+- Improve the modeling approach by testing more models.
+- Address the class and sample-size differences across hospital types, ownership, and states to make comparison more robust.
+- Look into furthering feature importance to better understand which quality measures contribute most to predicting higher ratings.
+- Build a dashboard to make the findings more accessible and interactive.
+- Keep on documenting! 
