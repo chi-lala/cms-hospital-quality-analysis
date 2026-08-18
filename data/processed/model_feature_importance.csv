@@ -1,0 +1,223 @@
+model,feature,importance,abs_importance,direction
+Characteristics Only,categorical__hospital_type_Acute Care - Veterans Administration,0.7356376963319957,0.7356376963319957,positive
+Characteristics Only,categorical__hospital_type_Acute Care Hospitals,-0.34067430096211276,0.34067430096211276,negative
+Characteristics Only,categorical__hospital_type_Critical Access Hospitals,-0.3197392715047333,0.3197392715047333,negative
+Characteristics Only,categorical__hospital_ownership_Government - Federal,-0.10869263692756315,0.10869263692756315,negative
+Characteristics Only,categorical__hospital_ownership_Government - Hospital District or Authority,-0.6092607503797413,0.6092607503797413,negative
+Characteristics Only,categorical__hospital_ownership_Government - Local,-0.3872634343850726,0.3872634343850726,negative
+Characteristics Only,categorical__hospital_ownership_Government - State,-0.27068163485523344,0.27068163485523344,negative
+Characteristics Only,categorical__hospital_ownership_Physician,0.402334505459126,0.402334505459126,positive
+Characteristics Only,categorical__hospital_ownership_Proprietary,-0.6601473152440911,0.6601473152440911,negative
+Characteristics Only,categorical__hospital_ownership_Tribal,0.7463121807433152,0.7463121807433152,positive
+Characteristics Only,categorical__hospital_ownership_Veterans Health Administration,0.7356376963319957,0.7356376963319957,positive
+Characteristics Only,categorical__hospital_ownership_Voluntary non-profit - Church,0.1583133125768115,0.1583133125768115,positive
+Characteristics Only,categorical__hospital_ownership_Voluntary non-profit - Other,-0.035622046156449816,0.035622046156449816,negative
+Characteristics Only,categorical__hospital_ownership_Voluntary non-profit - Private,0.10429424670206358,0.10429424670206358,positive
+Characteristics Only,categorical__emergency_services_No,0.30962316633154874,0.30962316633154874,positive
+Characteristics Only,categorical__emergency_services_Yes,-0.23439904246638074,0.23439904246638074,negative
+Characteristics Only,categorical__state_AK,-0.7523746244475321,0.7523746244475321,negative
+Characteristics Only,categorical__state_AL,-0.6631820470399414,0.6631820470399414,negative
+Characteristics Only,categorical__state_AR,-0.7195659256270098,0.7195659256270098,negative
+Characteristics Only,categorical__state_AZ,-0.5627488501824611,0.5627488501824611,negative
+Characteristics Only,categorical__state_CA,0.12124086427938155,0.12124086427938155,positive
+Characteristics Only,categorical__state_CO,1.432060120504926,1.432060120504926,positive
+Characteristics Only,categorical__state_CT,0.08692351829391008,0.08692351829391008,positive
+Characteristics Only,categorical__state_DC,-0.8322907894956352,0.8322907894956352,negative
+Characteristics Only,categorical__state_DE,-0.24991904838489243,0.24991904838489243,negative
+Characteristics Only,categorical__state_FL,0.1131247687342419,0.1131247687342419,positive
+Characteristics Only,categorical__state_GA,-0.46606532235280007,0.46606532235280007,negative
+Characteristics Only,categorical__state_GU,-0.2174630406967235,0.2174630406967235,negative
+Characteristics Only,categorical__state_HI,0.09663466968483575,0.09663466968483575,positive
+Characteristics Only,categorical__state_IA,0.22602182284742142,0.22602182284742142,positive
+Characteristics Only,categorical__state_ID,-0.8738418906286911,0.8738418906286911,negative
+Characteristics Only,categorical__state_IL,-0.31156303632439464,0.31156303632439464,negative
+Characteristics Only,categorical__state_IN,0.2155912433034625,0.2155912433034625,positive
+Characteristics Only,categorical__state_KS,0.38041855756477894,0.38041855756477894,positive
+Characteristics Only,categorical__state_KY,-0.7209349786440211,0.7209349786440211,negative
+Characteristics Only,categorical__state_LA,-0.5684887602614196,0.5684887602614196,negative
+Characteristics Only,categorical__state_MA,-0.15078085088390608,0.15078085088390608,negative
+Characteristics Only,categorical__state_MD,-0.35919548024589426,0.35919548024589426,negative
+Characteristics Only,categorical__state_ME,-0.2585353000333227,0.2585353000333227,negative
+Characteristics Only,categorical__state_MI,-0.1087080646603535,0.1087080646603535,negative
+Characteristics Only,categorical__state_MN,0.8219225307097023,0.8219225307097023,positive
+Characteristics Only,categorical__state_MO,0.15694685004649248,0.15694685004649248,positive
+Characteristics Only,categorical__state_MS,-1.0978684520295754,1.0978684520295754,negative
+Characteristics Only,categorical__state_MT,0.1062928134548576,0.1062928134548576,positive
+Characteristics Only,categorical__state_NC,0.32981480134385577,0.32981480134385577,positive
+Characteristics Only,categorical__state_ND,-0.47731700821288287,0.47731700821288287,negative
+Characteristics Only,categorical__state_NE,0.697671553805016,0.697671553805016,positive
+Characteristics Only,categorical__state_NH,-0.06433551550856895,0.06433551550856895,negative
+Characteristics Only,categorical__state_NJ,-0.13186740040190492,0.13186740040190492,negative
+Characteristics Only,categorical__state_NM,-0.6854862654032141,0.6854862654032141,negative
+Characteristics Only,categorical__state_NV,-0.20645571566774704,0.20645571566774704,negative
+Characteristics Only,categorical__state_NY,-0.8638690606727698,0.8638690606727698,negative
+Characteristics Only,categorical__state_OH,0.34321837339203565,0.34321837339203565,positive
+Characteristics Only,categorical__state_OK,0.4792209648765057,0.4792209648765057,positive
+Characteristics Only,categorical__state_OR,0.1791658309698157,0.1791658309698157,positive
+Characteristics Only,categorical__state_PA,0.40953625159508744,0.40953625159508744,positive
+Characteristics Only,categorical__state_PR,-0.5185722360244688,0.5185722360244688,negative
+Characteristics Only,categorical__state_RI,0.9907984340918689,0.9907984340918689,positive
+Characteristics Only,categorical__state_SC,0.3470685228588007,0.3470685228588007,positive
+Characteristics Only,categorical__state_SD,1.1613891030028798,1.1613891030028798,positive
+Characteristics Only,categorical__state_TN,-0.033740815741303484,0.033740815741303484,negative
+Characteristics Only,categorical__state_TX,0.530679306211629,0.530679306211629,positive
+Characteristics Only,categorical__state_UT,1.591140566152471,1.591140566152471,positive
+Characteristics Only,categorical__state_VA,0.8296561915653893,0.8296561915653893,positive
+Characteristics Only,categorical__state_VI,-0.2174630406967235,0.2174630406967235,negative
+Characteristics Only,categorical__state_VT,-0.14456920017491176,0.14456920017491176,negative
+Characteristics Only,categorical__state_WA,0.17250889838805258,0.17250889838805258,positive
+Characteristics Only,categorical__state_WI,0.7309687784596144,0.7309687784596144,positive
+Characteristics Only,categorical__state_WV,-0.6395984994775296,0.6395984994775296,negative
+Characteristics Only,categorical__state_WY,0.42201000764872126,0.42201000764872126,positive
+Logistic Regression,numeric__mort_better_rate,0.6628859184046569,0.6628859184046569,positive
+Logistic Regression,numeric__mort_worse_rate,-0.7880767642839396,0.7880767642839396,negative
+Logistic Regression,numeric__safety_better_rate,0.16152479037923606,0.16152479037923606,positive
+Logistic Regression,numeric__safety_worse_rate,-0.36283286716202434,0.36283286716202434,negative
+Logistic Regression,numeric__readm_better_rate,0.5182816251550139,0.5182816251550139,positive
+Logistic Regression,numeric__readm_worse_rate,-0.7361789415667299,0.7361789415667299,negative
+Logistic Regression,categorical__hospital_type_Acute Care - Veterans Administration,0.6506631982844044,0.6506631982844044,positive
+Logistic Regression,categorical__hospital_type_Acute Care Hospitals,-0.3091919423028096,0.3091919423028096,negative
+Logistic Regression,categorical__hospital_type_Critical Access Hospitals,-0.371255299962538,0.371255299962538,negative
+Logistic Regression,categorical__hospital_ownership_Government - Federal,-0.03309099902081966,0.03309099902081966,negative
+Logistic Regression,categorical__hospital_ownership_Government - Hospital District or Authority,-0.5577933941118681,0.5577933941118681,negative
+Logistic Regression,categorical__hospital_ownership_Government - Local,-0.09996392750704808,0.09996392750704808,negative
+Logistic Regression,categorical__hospital_ownership_Government - State,-0.6967660677368757,0.6967660677368757,negative
+Logistic Regression,categorical__hospital_ownership_Physician,0.297526515295486,0.297526515295486,positive
+Logistic Regression,categorical__hospital_ownership_Proprietary,-0.41109290947388244,0.41109290947388244,negative
+Logistic Regression,categorical__hospital_ownership_Tribal,0.30689677876003146,0.30689677876003146,positive
+Logistic Regression,categorical__hospital_ownership_Veterans Health Administration,0.6506631982844044,0.6506631982844044,positive
+Logistic Regression,categorical__hospital_ownership_Voluntary non-profit - Church,0.27544923474957284,0.27544923474957284,positive
+Logistic Regression,categorical__hospital_ownership_Voluntary non-profit - Other,0.042114754818405,0.042114754818405,positive
+Logistic Regression,categorical__hospital_ownership_Voluntary non-profit - Private,0.19627277196164614,0.19627277196164614,positive
+Logistic Regression,categorical__emergency_services_No,0.25256190722761324,0.25256190722761324,positive
+Logistic Regression,categorical__emergency_services_Yes,-0.2823459512085496,0.2823459512085496,negative
+Logistic Regression,categorical__state_AK,-0.10163785996897577,0.10163785996897577,negative
+Logistic Regression,categorical__state_AL,-0.5090670107526135,0.5090670107526135,negative
+Logistic Regression,categorical__state_AR,-0.6586987879669255,0.6586987879669255,negative
+Logistic Regression,categorical__state_AZ,-0.511293361913944,0.511293361913944,negative
+Logistic Regression,categorical__state_CA,0.024312256350580933,0.024312256350580933,positive
+Logistic Regression,categorical__state_CO,1.092818046304308,1.092818046304308,positive
+Logistic Regression,categorical__state_CT,0.08107497402349935,0.08107497402349935,positive
+Logistic Regression,categorical__state_DC,-0.9781719008350058,0.9781719008350058,negative
+Logistic Regression,categorical__state_DE,-0.6410506699473525,0.6410506699473525,negative
+Logistic Regression,categorical__state_FL,0.16732013189092784,0.16732013189092784,positive
+Logistic Regression,categorical__state_GA,-0.41111440607330213,0.41111440607330213,negative
+Logistic Regression,categorical__state_GU,-0.06922688365737563,0.06922688365737563,negative
+Logistic Regression,categorical__state_HI,0.2393105147702602,0.2393105147702602,positive
+Logistic Regression,categorical__state_IA,0.2818349056588527,0.2818349056588527,positive
+Logistic Regression,categorical__state_ID,-1.2843982765064577,1.2843982765064577,negative
+Logistic Regression,categorical__state_IL,-0.308222572471324,0.308222572471324,negative
+Logistic Regression,categorical__state_IN,0.3904928535911587,0.3904928535911587,positive
+Logistic Regression,categorical__state_KS,0.2527699885253379,0.2527699885253379,positive
+Logistic Regression,categorical__state_KY,-0.5695654143347195,0.5695654143347195,negative
+Logistic Regression,categorical__state_LA,-0.2226289784827383,0.2226289784827383,negative
+Logistic Regression,categorical__state_MA,-0.30644079241780137,0.30644079241780137,negative
+Logistic Regression,categorical__state_MD,-0.6744326572437992,0.6744326572437992,negative
+Logistic Regression,categorical__state_ME,-0.3256297827781799,0.3256297827781799,negative
+Logistic Regression,categorical__state_MI,-0.24572519002458929,0.24572519002458929,negative
+Logistic Regression,categorical__state_MN,0.5757214217290635,0.5757214217290635,positive
+Logistic Regression,categorical__state_MO,0.3729862150008459,0.3729862150008459,positive
+Logistic Regression,categorical__state_MS,-0.4369415393002103,0.4369415393002103,negative
+Logistic Regression,categorical__state_MT,-0.015740402926638766,0.015740402926638766,negative
+Logistic Regression,categorical__state_NC,0.4043266488490033,0.4043266488490033,positive
+Logistic Regression,categorical__state_ND,-0.9586963436200812,0.9586963436200812,negative
+Logistic Regression,categorical__state_NE,0.770018679576295,0.770018679576295,positive
+Logistic Regression,categorical__state_NH,-0.3623311773223579,0.3623311773223579,negative
+Logistic Regression,categorical__state_NJ,0.4105144740626536,0.4105144740626536,positive
+Logistic Regression,categorical__state_NM,-0.8359945627470805,0.8359945627470805,negative
+Logistic Regression,categorical__state_NV,-0.11743236994369488,0.11743236994369488,negative
+Logistic Regression,categorical__state_NY,-1.0002159693246708,1.0002159693246708,negative
+Logistic Regression,categorical__state_OH,0.3037847888981443,0.3037847888981443,positive
+Logistic Regression,categorical__state_OK,0.40277139387674993,0.40277139387674993,positive
+Logistic Regression,categorical__state_OR,0.21049916974686236,0.21049916974686236,positive
+Logistic Regression,categorical__state_PA,0.39455435537200184,0.39455435537200184,positive
+Logistic Regression,categorical__state_PR,0.1385720788904263,0.1385720788904263,positive
+Logistic Regression,categorical__state_RI,1.0844979375574624,1.0844979375574624,positive
+Logistic Regression,categorical__state_SC,0.45003658763972354,0.45003658763972354,positive
+Logistic Regression,categorical__state_SD,0.9958340427767017,0.9958340427767017,positive
+Logistic Regression,categorical__state_TN,0.1294506224492439,0.1294506224492439,positive
+Logistic Regression,categorical__state_TX,0.4627939678971899,0.4627939678971899,positive
+Logistic Regression,categorical__state_UT,0.5285157837492064,0.5285157837492064,positive
+Logistic Regression,categorical__state_VA,0.9203706085845319,0.9203706085845319,positive
+Logistic Regression,categorical__state_VI,-0.008280049825347453,0.008280049825347453,negative
+Logistic Regression,categorical__state_VT,-0.14062506179118414,0.14062506179118414,negative
+Logistic Regression,categorical__state_WA,0.20747365370820495,0.20747365370820495,positive
+Logistic Regression,categorical__state_WI,0.5673909377399647,0.5673909377399647,positive
+Logistic Regression,categorical__state_WV,-0.11945881119095367,0.11945881119095367,negative
+Logistic Regression,categorical__state_WY,-0.07681024983282499,0.07681024983282499,negative
+Random Forest,numeric__mort_better_rate,0.06956232828852865,0.06956232828852865,N/A
+Random Forest,numeric__mort_worse_rate,0.057707856566948185,0.057707856566948185,N/A
+Random Forest,numeric__safety_better_rate,0.10785280786890397,0.10785280786890397,N/A
+Random Forest,numeric__safety_worse_rate,0.025800252078695927,0.025800252078695927,N/A
+Random Forest,numeric__readm_better_rate,0.13935292388058992,0.13935292388058992,N/A
+Random Forest,numeric__readm_worse_rate,0.16514097535761715,0.16514097535761715,N/A
+Random Forest,categorical__hospital_type_Acute Care - Veterans Administration,0.006890256405976095,0.006890256405976095,N/A
+Random Forest,categorical__hospital_type_Acute Care Hospitals,0.01070187697527382,0.01070187697527382,N/A
+Random Forest,categorical__hospital_type_Critical Access Hospitals,0.009420737969586753,0.009420737969586753,N/A
+Random Forest,categorical__hospital_ownership_Government - Federal,0.0009909159374234225,0.0009909159374234225,N/A
+Random Forest,categorical__hospital_ownership_Government - Hospital District or Authority,0.013281268483361586,0.013281268483361586,N/A
+Random Forest,categorical__hospital_ownership_Government - Local,0.008851653765701156,0.008851653765701156,N/A
+Random Forest,categorical__hospital_ownership_Government - State,0.0021846801579086185,0.0021846801579086185,N/A
+Random Forest,categorical__hospital_ownership_Physician,0.0031577165196236628,0.0031577165196236628,N/A
+Random Forest,categorical__hospital_ownership_Proprietary,0.015913349778269196,0.015913349778269196,N/A
+Random Forest,categorical__hospital_ownership_Tribal,0.00018420458068905358,0.00018420458068905358,N/A
+Random Forest,categorical__hospital_ownership_Veterans Health Administration,0.006759436443869254,0.006759436443869254,N/A
+Random Forest,categorical__hospital_ownership_Voluntary non-profit - Church,0.010827637986582102,0.010827637986582102,N/A
+Random Forest,categorical__hospital_ownership_Voluntary non-profit - Other,0.011414308014098465,0.011414308014098465,N/A
+Random Forest,categorical__hospital_ownership_Voluntary non-profit - Private,0.020035738475500182,0.020035738475500182,N/A
+Random Forest,categorical__emergency_services_No,0.007209106262479421,0.007209106262479421,N/A
+Random Forest,categorical__emergency_services_Yes,0.007124594320715151,0.007124594320715151,N/A
+Random Forest,categorical__state_AK,0.00035563455082221777,0.00035563455082221777,N/A
+Random Forest,categorical__state_AL,0.005188190265346941,0.005188190265346941,N/A
+Random Forest,categorical__state_AR,0.003781792913822355,0.003781792913822355,N/A
+Random Forest,categorical__state_AZ,0.006606585426544015,0.006606585426544015,N/A
+Random Forest,categorical__state_CA,0.014838008666957905,0.014838008666957905,N/A
+Random Forest,categorical__state_CO,0.0068627454635896345,0.0068627454635896345,N/A
+Random Forest,categorical__state_CT,0.004396113027271368,0.004396113027271368,N/A
+Random Forest,categorical__state_DC,0.001386882277151064,0.001386882277151064,N/A
+Random Forest,categorical__state_DE,0.0013661578909587124,0.0013661578909587124,N/A
+Random Forest,categorical__state_FL,0.011650356860130997,0.011650356860130997,N/A
+Random Forest,categorical__state_GA,0.007211108173084608,0.007211108173084608,N/A
+Random Forest,categorical__state_GU,2.524318419576042e-05,2.524318419576042e-05,N/A
+Random Forest,categorical__state_HI,0.0017210643382436102,0.0017210643382436102,N/A
+Random Forest,categorical__state_IA,0.006490224770790272,0.006490224770790272,N/A
+Random Forest,categorical__state_ID,0.004328949093177175,0.004328949093177175,N/A
+Random Forest,categorical__state_IL,0.01066822545805795,0.01066822545805795,N/A
+Random Forest,categorical__state_IN,0.01163751659845781,0.01163751659845781,N/A
+Random Forest,categorical__state_KS,0.007274441993138045,0.007274441993138045,N/A
+Random Forest,categorical__state_KY,0.006812929463443081,0.006812929463443081,N/A
+Random Forest,categorical__state_LA,0.006443165757804786,0.006443165757804786,N/A
+Random Forest,categorical__state_MA,0.004540748645925575,0.004540748645925575,N/A
+Random Forest,categorical__state_MD,0.005416855451634532,0.005416855451634532,N/A
+Random Forest,categorical__state_ME,0.0037056106955977402,0.0037056106955977402,N/A
+Random Forest,categorical__state_MI,0.00959548381479838,0.00959548381479838,N/A
+Random Forest,categorical__state_MN,0.006675768509995964,0.006675768509995964,N/A
+Random Forest,categorical__state_MO,0.006326413185239552,0.006326413185239552,N/A
+Random Forest,categorical__state_MS,0.005643156895305142,0.005643156895305142,N/A
+Random Forest,categorical__state_MT,0.0016925970724802127,0.0016925970724802127,N/A
+Random Forest,categorical__state_NC,0.010308472754255655,0.010308472754255655,N/A
+Random Forest,categorical__state_ND,0.0022435877294300272,0.0022435877294300272,N/A
+Random Forest,categorical__state_NE,0.005885434362409331,0.005885434362409331,N/A
+Random Forest,categorical__state_NH,0.003245776291592344,0.003245776291592344,N/A
+Random Forest,categorical__state_NJ,0.005456464346035115,0.005456464346035115,N/A
+Random Forest,categorical__state_NM,0.002897004966470067,0.002897004966470067,N/A
+Random Forest,categorical__state_NV,0.002530518671566814,0.002530518671566814,N/A
+Random Forest,categorical__state_NY,0.009627529447315092,0.009627529447315092,N/A
+Random Forest,categorical__state_OH,0.01074174383806421,0.01074174383806421,N/A
+Random Forest,categorical__state_OK,0.007567096624400077,0.007567096624400077,N/A
+Random Forest,categorical__state_OR,0.004220284161447494,0.004220284161447494,N/A
+Random Forest,categorical__state_PA,0.007661376578463563,0.007661376578463563,N/A
+Random Forest,categorical__state_PR,0.0011878759969692042,0.0011878759969692042,N/A
+Random Forest,categorical__state_RI,0.0019688787254100062,0.0019688787254100062,N/A
+Random Forest,categorical__state_SC,0.004657802398393189,0.004657802398393189,N/A
+Random Forest,categorical__state_SD,0.0029312374401702992,0.0029312374401702992,N/A
+Random Forest,categorical__state_TN,0.007554426015090156,0.007554426015090156,N/A
+Random Forest,categorical__state_TX,0.01424917957301911,0.01424917957301911,N/A
+Random Forest,categorical__state_UT,0.003259919208301835,0.003259919208301835,N/A
+Random Forest,categorical__state_VA,0.008898580403376016,0.008898580403376016,N/A
+Random Forest,categorical__state_VI,4.338708445125343e-06,4.338708445125343e-06,N/A
+Random Forest,categorical__state_VT,0.0013966149758741552,0.0013966149758741552,N/A
+Random Forest,categorical__state_WA,0.004746762445261227,0.004746762445261227,N/A
+Random Forest,categorical__state_WI,0.007795593533641156,0.007795593533641156,N/A
+Random Forest,categorical__state_WV,0.003624215582765413,0.003624215582765413,N/A
+Random Forest,categorical__state_WY,0.0023326886595262655,0.0023326886595262655,N/A
