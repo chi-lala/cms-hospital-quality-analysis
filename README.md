@@ -174,7 +174,7 @@ There was insufficient evidence of an association between emergency services and
 
 | Model | Approach | Features | Purpose |
 |---|---|---|---|
-| **Hospital Profile Model** | Logistic Regression | Hospital type, ownership, emergency services, state | Baseline for measuring how well hospital characteristics predict a high rating |
+| **Characteristics Only** | Logistic Regression | Hospital type, ownership, emergency services, state | Baseline for measuring how well hospital characteristics predict a high rating |
 | **Logistic Regression** | Logistic Regression | Hospital characteristics + mortality, safety, and readmission measures | Model for understanding how quality measures relate to predicted ratings |
 | **Random Forest** | Random Forest Classifier | Hospital characteristics + mortality, safety, and readmission measures | Nonlinear comparison model to evaluate whether a tree-based approach improves prediction |
 
