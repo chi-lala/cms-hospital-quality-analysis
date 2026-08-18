@@ -172,7 +172,7 @@ There was insufficient evidence of an association between emergency services and
 
 ### Models Used
 
-| Model | Approach | Features | Purpose |
+| Name | Model | Features | Purpose |
 |---|---|---|---|
 | **Characteristics Only** | Logistic Regression | Hospital type, ownership, emergency services, state | Baseline for measuring how well hospital characteristics predict a high rating |
 | **Logistic Regression** | Logistic Regression | Hospital characteristics + mortality, safety, and readmission measures | Model for understanding how quality measures relate to predicted ratings |
