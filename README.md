@@ -170,6 +170,16 @@ The analysis found evidence of an association for:
 
 There was insufficient evidence of an association between emergency services and high rating at the 0.05 significance level. These results provided additional context for interpreting the predictive models.
 
+### Models Used
+
+| Model | Approach | Features | Purpose |
+|---|---|---|---|
+| **Hospital Profile Model** | Logistic Regression | Hospital type, ownership, emergency services, state | Baseline for measuring how well hospital characteristics predict a high rating |
+| **Logistic Regression** | Logistic Regression | Hospital characteristics + mortality, safety, and readmission measures | Model for understanding how quality measures relate to predicted ratings |
+| **Random Forest** | Random Forest Classifier | Hospital characteristics + mortality, safety, and readmission measures | Nonlinear comparison model to evaluate whether a tree-based approach improves prediction |
+
+
+
 ### Key Findings
 - Quality measures substantially improved predictive performance compared with hospital characteristics alone.
 - Logistic regression with quality measures achieved the highest ROC-AUC: 0.816
